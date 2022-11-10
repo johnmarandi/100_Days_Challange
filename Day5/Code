@@ -1,0 +1,30 @@
+import java.util.*;
+import java.io.*;
+
+class Solution{
+    public static void main(String []argh){
+        Scanner in = new Scanner(System.in);
+       int t=in.nextInt();
+    int arrA[] = new int[t];
+    int arrB[] = new int[t];
+    int arrN[] = new int[t];
+
+    for(int i=0;i<t;i++){
+        arrA[i] = in.nextInt();
+        arrB[i] = in.nextInt();
+        arrN[i] = in.nextInt();
+    }
+    in.close();
+
+    for(int i=0; i<t; i++){
+        int result = arrA[i] + arrB[i];
+        System.out.print(result + " ");
+        for(int j=1; j<arrN[i]; j++){
+            result = result + arrB[i] * (int)Math.pow(2,j);
+            System.out.print(result + " ");
+        }
+        System.out.println("");
+    }
+ 
+    }
+}
