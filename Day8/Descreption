@@ -1,0 +1,19 @@
+Input Format
+
+The first line contains a single string denoting .
+The second line contains two space-separated integers denoting the respective values  of sart and end .
+
+Constraints
+
+String  consists of English alphabetic letters (i.e., ) only.
+Output Format
+
+Print the substring in the inclusive range from  to .
+
+Sample Input
+
+Helloworld
+3 7
+Sample Output
+
+lowo
