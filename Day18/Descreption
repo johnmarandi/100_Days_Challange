@@ -1,0 +1,27 @@
+The first line contains an integer,q , denoting the number of queries (i.e., function calls).
+The 2. q subsequent lines describe each query over two lines:
+
+The first line contains two space-separated integers describing the respective values of  and .
+The second line contains  space-separated binary integers (i.e., zeroes and ones) describing the respective values of .
+Constraints
+
+It is guaranteed that the value of  is always .
+Sample Input
+
+STDIN           Function
+-----           --------
+4               q = 4 (number of queries)
+5 3             game[] size n = 5, leap = 3 (first query)
+0 0 0 0 0       game = [0, 0, 0, 0, 0]
+6 5             game[] size n = 6, leap = 5 (second query)
+0 0 0 1 1 1     . . .
+6 3
+0 0 1 1 1 0
+3 1
+0 1 0
+Sample Output
+
+YES
+YES
+NO
+NO
