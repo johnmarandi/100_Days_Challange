@@ -1,0 +1,16 @@
+Given n strings of brackets, determine whether each sequence of brackets is balanced. If a string is balanced, return YES. Otherwise, return NO.
+
+Sample Input
+
+STDIN           Function
+-----           --------
+3               n = 3
+{[()]}          first s = '{[()]}'
+{[(])}          second s = '{[(])}'
+{{[[(())]]}}    third s ='{{[[(())]]}}'
+
+Sample Output
+
+YES
+NO
+YES
