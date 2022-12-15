@@ -1,0 +1,19 @@
+Given a large integer, n, use the Java BigInteger class' isProbablePrime method to determine and print whether it's prime or not prime.
+
+Input Format
+
+A single line containing an integer,  (the number to be checked).
+
+Constraints
+
+ contains at most  digits.
+Output Format
+
+If  is a prime number, print prime; otherwise, print not prime.
+
+Sample Input
+
+13
+Sample Output
+
+prime
